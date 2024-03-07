@@ -1,6 +1,7 @@
 #include <kipr/wombat.h>
 #include "constants.h"
 
+//This is our starting function
 void sleepy()
 {
     set_servo_position(ARM, ARM_SLEEP);
